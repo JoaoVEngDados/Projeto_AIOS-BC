@@ -1,0 +1,7 @@
+# Dependências de Produção (Seção 13.2 da Especificação v1.0)
+cryptography>=42.0.0   # AES-256-GCM e HMAC-SHA256
+lz4>=4.3.2             # Compressão rápida para o CompressedKVStore
+
+# Dependências de Testes Unitários, Integração e Cobertura (Seção 13.2)
+pytest>=8.0.0          # Motor de testes unitários e de integração
+pytest-cov>=5.0.0      # Verificação de 100% de cobertura nos módulos core
